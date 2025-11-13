@@ -17,10 +17,22 @@ alert ("El total a pagar es: $" + total);
 Pide el ancho y el alto de una pared (en metros) y calcula su área
 para saber cuánto material comprar.*/
 
-let ancho = parseFloat(prompt("Ingrese el ancho de la pared"));
-let alto = parseFloat(prompt("Ingrese el alto de la pared"));
+let ancho_pared = parseFloat(prompt("Ingrese el ancho de la pared"));
+let alto_pared = parseFloat(prompt("Ingrese el alto de la pared"));
 
-let area = ancho * alto;
+let area = ancho_area * alto_area;
 console.log ("El area es: " + area + " m2");
 alert ("El area es: " + area + " m2");
+//--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 3. Debo calcular cuánto perímetro tiene un potrero rectangular. 
+Pide el largo y el ancho del potrero y muestra el resultado.*/
+
+let largo_potrero = parseFloat(prompt("Ingrese el largo del potrero"));
+let ancho_potrero = parseFloat(prompt("Ingrese el ancho del potrero"));
+
+let perimetro = 2 * (ancho_potrero + largo_potrero);
+console.log ("El potrero tiene un perimetro de: " + perimetro + " metros");
+alert ("El potrero tiene un perimetro de: " + perimetro + " metros");
 //--------------------------------------------------------------------------------//
