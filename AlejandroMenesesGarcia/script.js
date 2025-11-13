@@ -97,3 +97,15 @@ console.log ("El salario total es de: $ " + salarioTotal);
 alert ("El salario total es de: $ " + salarioTotal);
 
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 9. Estoy planeando un viaje y el mapa está en millas. 
+Pide una distancia en millas y muéstrala convertida a kilómetros. 
+(1 milla = 1.60934 km).*/
+
+let distanciaMillas = parseFloat(prompt("Ingrese la distancia en Millas"));
+let kilometros = distanciaMillas * 1.60934;
+
+console.log ("La distancia en Kilómetros es de: " + kilometros + "Km");
+alert ("La distancia en Kilómetros es de: " + kilometros + "Km");
+//--------------------------------------------------------------------------------//
