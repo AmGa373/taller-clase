@@ -83,3 +83,17 @@ let promedioFinal = (notaUno + notaDos + notaTres) / 3;
 console.log ("El promedio final del estudiante es: " + promedioFinal);
 alert ("El promedio final del estudiante es: " + promedioFinal);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 8. Debo calcular el salario semanal de un empleado. 
+Pide el número de horas trabajadas en la semana y el precio que se paga por hora. 
+Muestra el salario total.*/
+
+let horasTrabajadasSemana = parseFloat(prompt("Ingrese el número de horas trabajadas en la semana"));
+let valorHora = parseFloat(prompt("Ingrese el precio que se paga por hora"));
+
+let salarioTotal = horasTrabajadasSemana * valorHora;
+console.log ("El salario total es de: $ " + salarioTotal);
+alert ("El salario total es de: $ " + salarioTotal);
+
+//--------------------------------------------------------------------------------//
