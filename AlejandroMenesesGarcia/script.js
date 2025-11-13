@@ -59,3 +59,14 @@ let edad = annoActual - annoNacimiento;
 console.log ("La edad del usuario es: " + edad + " años");
 alert ("La edad del usuario es: " + edad + " años");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 6. Quiero un script que salude formalmente a un cliente. 
+Pide el nombre y el apellido del usuario y muestra en consola el mensaje: 
+"Bienvenido, [Nombre Completo]".*/
+let nombre = prompt("Ingrese el nombre del usuario");
+let apellido = prompt("Ingresse el apellido del usuario");
+
+console.log ("Bienvenido, " + nombre  + " " + apellido);
+alert ("Bienvenido, " + nombre + " " + apellido);
+//--------------------------------------------------------------------------------//
