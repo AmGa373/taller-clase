@@ -36,3 +36,13 @@ let perimetro = 2 * (ancho_potrero + largo_potrero);
 console.log ("El potrero tiene un perimetro de: " + perimetro + " metros");
 alert ("El potrero tiene un perimetro de: " + perimetro + " metros");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 4. Mi app del clima solo muestra la temperatura en grados Fahrenheit. 
+Pide la temperatura en °F y conviértela a grados Celsius.*/
+
+let fahrenheit = parseFloat(prompt("Ingrese la temperatura en °F"));
+let celsius = (fahrenheit - 32) * 5/9;
+console.log ("La temperatura en grados celsius es: " + celsius + " C°");
+alert ("La temperatura en grados celsius es: " + celsius + " C°");
+//--------------------------------------------------------------------------------//
