@@ -70,3 +70,16 @@ let apellido = prompt("Ingresse el apellido del usuario");
 console.log ("Bienvenido, " + nombre  + " " + apellido);
 alert ("Bienvenido, " + nombre + " " + apellido);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 7. Necesito calcular el promedio de notas de un estudiante. 
+Pide las 3 notas (de 0 a 5) y muestra el promedio final.*/
+
+let notaUno = parseFloat(prompt("Ingrese la primera nota (de 0 a 5)"));
+let notaDos = parseFloat(prompt("Ingrese la segunda nota (de 0 a 5)"));
+let notaTres = parseFloat(prompt("Ingrese la tercera nota (de 0 a 5)"));
+
+let promedioFinal = (notaUno + notaDos + notaTres) / 3;
+console.log ("El promedio final del estudiante es: " + promedioFinal);
+alert ("El promedio final del estudiante es: " + promedioFinal);
+//--------------------------------------------------------------------------------//
