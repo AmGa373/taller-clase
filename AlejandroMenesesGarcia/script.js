@@ -239,3 +239,15 @@ let refrescosNecesarios = numeroAsistentes * refrescoAsistente;
 console.log ("Para el evento se necesitan " + refrescosNecesarios + " refrescos");
 alert ("Para el evento se necesitan " + refrescosNecesarios + " refrescos");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 20. Necesito calcular la velocidad promedio de un auto. 
+Pide la distancia recorrida (en km) y el tiempo que le tomó (en horas) 
+y muestra la velocidad (km/h).*/
+let distanciaRecorrida = parseFloat (prompt("Ingrese la distancia que recorrio en Km"));
+let tiempoQueTardo = parseFloat (prompt("Ingrese el tiempo en horas que le tomo en hacer el recorrido"));
+
+let velocidadPromedio = distanciaRecorrida / tiempoQueTardo;
+console.log ("La velocidad promedio del vehiculo fue de " + velocidadPromedio + " Km/h");
+alert ("La velocidad promedio del vehiculo fue de " + velocidadPromedio + " Km/h");
+//--------------------------------------------------------------------------------//
