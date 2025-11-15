@@ -227,3 +227,15 @@ console.log ("La suma de los dos numeros es: " + suma);
 alert ("El numero que ingreso fue: " + numeroDosCifras);
 alert ("La suma de los dos numeros es: " + suma);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 19. Para un evento se necesita saber cuántos refrescos comprar. 
+Pide el número de asistentes y, asumiendo que cada asistente tomará 3 refrescos, 
+muestra el total de refrescos necesarios.*/
+let numeroAsistentes = parseInt (prompt("Ingrese el numero de asistentes"));
+const refrescoAsistente = 3;
+
+let refrescosNecesarios = numeroAsistentes * refrescoAsistente;
+console.log ("Para el evento se necesitan " + refrescosNecesarios + " refrescos");
+alert ("Para el evento se necesitan " + refrescosNecesarios + " refrescos");
+//--------------------------------------------------------------------------------//
