@@ -175,3 +175,17 @@ let areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
 console.log ("El area del trinagulo es de: " + areaTriangulo);
 alert ("El area del trinagulo es de: " + areaTriangulo);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 15. El sistema registró mal los datos. 
+Pide el nombre de un usuario y luego su apellido. 
+Muestra en consola los datos intercambiados 
+(el valor del nombre en el apellido y viceversa).*/
+let nombreUsuario = (prompt("Ingrese el nombre del usuario"));
+let apellidoUsuario = (prompt("Ingrese el apellido del usuario"));
+
+console.log ("El nombre del usuario es: "+ apellidoUsuario);
+console.log ("El apellido del usuario es: "+ nombreUsuario);
+alert ("El nombre del usuario es: "+ apellidoUsuario);
+alert ("El apellido del usuario es: "+ nombreUsuario);
+//--------------------------------------------------------------------------------//
