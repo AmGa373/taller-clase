@@ -106,8 +106,8 @@ Pide una distancia en millas y muéstrala convertida a kilómetros.
 let distanciaMillas = parseFloat(prompt("Ingrese la distancia en Millas"));
 let kilometros = distanciaMillas * 1.60934;
 
-console.log ("La distancia en Kilómetros es de: " + kilometros + "Km");
-alert ("La distancia en Kilómetros es de: " + kilometros + "Km");
+console.log ("La distancia en Kilómetros es de: " + kilometros + " Km");
+alert ("La distancia en Kilómetros es de: " + kilometros + " Km");
 //--------------------------------------------------------------------------------//
 
 //--------------------------------------------------------------------------------//
@@ -188,4 +188,16 @@ console.log ("El nombre del usuario es: "+ apellidoUsuario);
 console.log ("El apellido del usuario es: "+ nombreUsuario);
 alert ("El nombre del usuario es: "+ apellidoUsuario);
 alert ("El apellido del usuario es: "+ nombreUsuario);
+//--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 16. Necesito un conversor de divisas simple. Pide una cantidad en dólares (USD) y, 
+asumiendo una tasa de cambio fija (ej. 1 USD = 3900 COP), 
+muestra el equivalente en pesos colombianos.*/
+let cantidadDolares = parseFloat (prompt("Ingrese la cantidad de dolares que quiere conertir a COP"));
+let tasaCambio = 3900;
+
+let equivalenteCop = cantidadDolares * tasaCambio;
+console.log ("La cantidad de dolares ingresada equivale a " + equivalenteCop + "pesos colombianos");
+alert ("La cantidad de dolares ingresada equivale a " + equivalenteCop + " pesos colombianos");
 //--------------------------------------------------------------------------------//
