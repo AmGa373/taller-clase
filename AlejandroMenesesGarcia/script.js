@@ -135,3 +135,16 @@ console.log ("El precio final que debe pagar por el producto es de " + precioFin
 alert ("El precio final que debe pagar por el producto es de " + precioFinal);
 //--------------------------------------------------------------------------------//
 
+//--------------------------------------------------------------------------------//
+/* 12. Se debe calcular el IVA (19%) de un producto. 
+Pide el precio base (sin IVA) del producto y calcula cuánto es el IVA 
+y cuál es el precio total.*/
+let precioBase = parseFloat(prompt("Ingrese el precio base del producto"));
+let iva = precioBase * 0.19;
+let precioTotal = precioBase + iva;
+
+console.log ("El IVA del producto es de: " + iva);
+console.log ("El precio total del producto es de: " + precioTotal);
+alert ("El IVA del producto es de: " + iva);
+alert ("El precio total del producto es de: " + precioTotal);
+//--------------------------------------------------------------------------------//
