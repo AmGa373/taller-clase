@@ -201,3 +201,15 @@ let equivalenteCop = cantidadDolares * tasaCambio;
 console.log ("La cantidad de dolares ingresada equivale a " + equivalenteCop + "pesos colombianos");
 alert ("La cantidad de dolares ingresada equivale a " + equivalenteCop + " pesos colombianos");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 17. Para un reporte, necesito saber cuántos kilogramos pesa un paquete. 
+El sistema lo da en libras (lb). 
+Pide el peso en libras y muéstralo en kilogramos (1 lb = 0.453592 kg).*/
+let pesoLibras = parseFloat (prompt("Ingrese en peso del paquete en libras"));
+let kilogramos = 0.453592;
+
+let pesoKilogramos = pesoLibras * kilogramos;
+console.log ("El peso del producto en kilogramos es de " + pesoKilogramos + " kg");
+alert ("El peso del producto en kilogramos es de " + pesoKilogramos + " kg");
+//--------------------------------------------------------------------------------//
