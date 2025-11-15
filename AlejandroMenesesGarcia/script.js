@@ -148,3 +148,18 @@ console.log ("El precio total del producto es de: " + precioTotal);
 alert ("El IVA del producto es de: " + iva);
 alert ("El precio total del producto es de: " + precioTotal);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 13. Un cliente quiere saber cuánto capital final tendrá en una inversión. 
+Pide el capital inicial, la tasa de interés (anual, ej. 5 para 5%) 
+y el número de años. Calcula el interés simple (Capital * (Tasa/100) * Años) y el total.*/
+let capitalInicial = parseFloat (prompt("Ingrese el capital inicial para su inversión"));
+let tasaInteres = parseFloat (prompt("Ingrese la tasa de interes anual (ej. 5 para 5%)"));
+let numeroAnhos = parseFloat (prompt("Ingrese el numero de años en los que estara invirtiendo"));
+
+let interesSimple = (capitalInicial * (tasaInteres / 100) * numeroAnhos);
+let capitalFinal = capitalInicial + interesSimple;
+
+console.log ("El capital final que tendra su inversion es de: " + capitalFinal);
+alert ("El capital final que tendra su inversion es de: " + capitalFinal);
+//--------------------------------------------------------------------------------//
