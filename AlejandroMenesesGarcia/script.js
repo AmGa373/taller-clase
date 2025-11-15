@@ -213,3 +213,17 @@ let pesoKilogramos = pesoLibras * kilogramos;
 console.log ("El peso del producto en kilogramos es de " + pesoKilogramos + " kg");
 alert ("El peso del producto en kilogramos es de " + pesoKilogramos + " kg");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 18. Pide al usuario un número de dos cifras (ej. 47) 
+y muestra la suma de sus dígitos (ej. 4 + 7 = 11).*/
+let numeroDosCifras = parseInt (prompt("Ingrese un numero de dos cifras"));
+let numeroUno = parseInt (numeroDosCifras / 10);
+let numeroDos = numeroDosCifras % 10;
+
+let suma = numeroUno + numeroDos;
+console.log ("El numero que ingreso fue: " + numeroDosCifras);
+console.log ("La suma de los dos numeros es: " + suma);
+alert ("El numero que ingreso fue: " + numeroDosCifras);
+alert ("La suma de los dos numeros es: " + suma);
+//--------------------------------------------------------------------------------//
