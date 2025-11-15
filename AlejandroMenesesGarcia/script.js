@@ -163,3 +163,15 @@ let capitalFinal = capitalInicial + interesSimple;
 console.log ("El capital final que tendra su inversion es de: " + capitalFinal);
 alert ("El capital final que tendra su inversion es de: " + capitalFinal);
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 14. Necesito calcular el área de un triángulo. 
+Pide la base y la altura del triángulo y muestra el resultado.*/
+let baseTriangulo = parseFloat (prompt("Ingrese la base del triangulo"));
+let alturaTriangulo = parseFloat (prompt("Ingrese la altura del triangulo"));
+
+let areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
+
+console.log ("El area del trinagulo es de: " + areaTriangulo);
+alert ("El area del trinagulo es de: " + areaTriangulo);
+//--------------------------------------------------------------------------------//
