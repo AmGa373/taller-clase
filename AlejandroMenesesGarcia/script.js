@@ -121,3 +121,17 @@ let minutosRestantes = totalMinutos % 60;
 console.log ("Equivale a: " + horas + " horas y " + minutosRestantes + " minutos");
 alert ("Equivale a: " + horas + " horas y " + minutosRestantes + " minutos");
 //--------------------------------------------------------------------------------//
+
+//--------------------------------------------------------------------------------//
+/* 11. Necesito calcular el precio final de un producto que tiene descuento. 
+Pide el precio original y el porcentaje de descuento 
+(ej. 20 para 20%) y muestra el precio final a pagar.*/
+
+let precioOriginal = parseFloat(prompt("Ingrese el precio original del producto"));
+let descuento = parseFloat(prompt("Ingrese el valor del descuento que tiene el producto"));
+
+let precioFinal = precioOriginal - (precioOriginal * descuento / 100);
+console.log ("El precio final que debe pagar por el producto es de " + precioFinal);
+alert ("El precio final que debe pagar por el producto es de " + precioFinal);
+//--------------------------------------------------------------------------------//
+
